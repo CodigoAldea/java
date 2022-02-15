@@ -1,0 +1,7 @@
+system: it is a class 
+out : it is an object of class PrintStream
+println : it is function of class PrintStream
+
+
+14/02/2022
+
