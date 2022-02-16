@@ -3,5 +3,50 @@ out : it is an object of class PrintStream
 println : it is function of class PrintStream
 
 
-14/02/2022
+15/02/2022
+Scanner class : it is used to take input of primitive data type. 
 
+object : 
+Scanner sc = new Scanner(System.in)
+
+System.in is the standard input stream.
+
+int a = sc.nextInt();
+
+
+Control statement : 
+3 type : 
+
+    1> Decision  : if statement  and switch statement.
+    2> Loop : do-while, while, for and for-each.
+    3> jump : break, continue.
+
+IF statement :
+
+    if (condition){
+        <if code block>
+    }
+    else if (condition){
+        <else code block>
+    }
+
+    1> only if statement : simple if 
+    2> if- else : if-else statement
+    3> if-else-if ladder
+    4> Nested if :
+        if (condition 1){
+            if (condition 2){ // executes only if conditon 1 is true
+                if(condition 3){
+
+                }
+                else {
+                    condition 3 is false 
+                }
+            }
+            else{
+                condition 2 is false
+            }
+        }
+        else{
+            codition 1 is flase 
+        }
