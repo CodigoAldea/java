@@ -54,3 +54,13 @@ IF statement :
 
 
 Syntax : pacakge_name.class_name.function_name
+
+18 - feb - 2022
+
+Switch : 
+
+switch(expression){
+    case value:
+    code to execute;
+    break;
+}
