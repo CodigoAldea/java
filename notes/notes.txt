@@ -50,3 +50,7 @@ IF statement :
         else{
             codition 1 is flase 
         }
+
+
+
+Syntax : pacakge_name.class_name.function_name

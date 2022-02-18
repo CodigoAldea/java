@@ -4,8 +4,10 @@ package programs;
 
 import java.util.*; //import  the package 
 public class input{
+    private static Scanner sc;
+
     public static void main(String[] args){
-        Scanner sc = new Scanner(System.in); //object 
+        sc = new Scanner(System.in);
         System.out.println("Enter a Number : ");
         int a = sc.nextInt();  // actual input
         System.out.println("you have entered : " +a);
