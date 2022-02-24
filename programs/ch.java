@@ -3,7 +3,7 @@ package programs;
 // how to take input.
 
 import java.util.*; //import  the package 
-public class input{
+public class ch{
     private static Scanner sc;
 
     public static void main(String[] args){
