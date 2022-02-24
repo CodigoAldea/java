@@ -5,12 +5,26 @@ public class consonant {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the character :");
-        char ch = sc.next().toLowerCase().charAt(0);
-        if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' ){
-            System.out.println("It is vowel");
+        String ch = sc.next().toLowerCase(); 
+        
+        if (ch.length() >1){
+            System.out.println("Error!!!!");
+            System.exit(0); // to exit the program when this code block runs.
+        }
+
+        boolean uppercase = ch.charAt(0) >= 65 && ch.charAt(0) <= 90;
+        boolean lowercase = ch.charAt(0) >= 97 && ch.charAt(0) <= 122;
+        boolean vowels = ch.equals("a") || ch.equals("e") || ch.equals("i")
+                || ch.equals("o") || ch.equals("u");
+        
+        
+        if(vowels){
+            System.out.println("Input letter is Vowel");
         }
         else{
-            System.out.println("It is consonant");
+            System.out.println("Input letter is Consonant");
         }
+
+        
     }
 }
