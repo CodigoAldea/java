@@ -7,11 +7,16 @@ public class palindrome {
         int n = a.nextInt();
         int r, sum=0, temp;
         temp=n;    
-        while(n>0){    
+        /*while(n>0){    
             r=n%10;  //getting remainder  
             sum=(sum*10)+r;    
             n=n/10;    
-        }    
+        } */
+        for(; n >0; n=n/10){
+            r=n%10;  //getting remainder  
+            sum=(sum*10)+r;    
+            
+        } 
         if(temp==sum)    
             System.out.println("palindrome number ");    
         else    
