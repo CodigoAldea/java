@@ -67,3 +67,10 @@ switch(expression){
 
 28-feb-2022
 
+
+
+public static void mainMethod(String[] args)
+
+mainMethod : camel case 
+variable : lowercase 
+Constant : all the letters are in UPPER_CASE
