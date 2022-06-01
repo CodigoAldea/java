@@ -74,3 +74,11 @@ public static void mainMethod(String[] args)
 mainMethod : camel case 
 variable : lowercase 
 Constant : all the letters are in UPPER_CASE
+
+THIS KEYWORD : 
+    1. it refer to the current class instance variable.
+    2. Using this keyword we can call or invoke current class method.
+    3. this() it can be used to call or invoke current class constructor.
+    4. this keyword can be passed as an argument in the method call.
+    5. this can be passed as an argument in the constructor call.
+    6. this can  be used  to return the current class instance from the method.
